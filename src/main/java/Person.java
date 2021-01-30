@@ -42,7 +42,7 @@ public class Person {
     }
 
     public String getLastName() {
-        return this.firstName;
+        return this.lastName;
     }
 
     public void setLastName(String n) {

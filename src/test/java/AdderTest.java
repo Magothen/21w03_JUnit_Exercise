@@ -22,6 +22,7 @@ public class AdderTest {
         System.out.println("Closing testsuite - " + testInfo.getDisplayName());
     }
 
+    //testar metoden Add
     @Test
     void testAdd () {
         Adder testObject = new Adder(); // test code
@@ -31,7 +32,4 @@ public class AdderTest {
         int expected = - 1;
         Assertions.assertEquals(expected, actual); //Assertions
     }
-
-
-
 }
